@@ -293,11 +293,24 @@ body {
   margin-top: 15px;
 }
 
-img.page__clients {
+.page__clients {
   display: block;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.page__clients__links {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__clients__links:hover {
+  cursor: pointer;
 }
 
 .page__bottom {
