@@ -21,7 +21,7 @@ body {
 .header__logo {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .header__items {
@@ -34,6 +34,10 @@ body {
 
 .header__items-language {
   display: flex;
+}
+
+.header__items-language__img {
+  margin-right: 5px;
 }
 
 .header__items__button {
@@ -309,34 +313,53 @@ body {
   margin-right: auto;
 }
 
-.page__clients__links:hover {
+.page__clients__links__link {
+  transform: scale(1);
+  transition: 1s;
+}
+
+.page__clients__links__link:hover {
   cursor: pointer;
+  transform: scale(1.2);
+  transition: 1s;
 }
 
 .page__bottom {
   display: flex;
   width: 1440px;
-  height: 346px;
+  height: 300px;
   background-color: #FFF2EF;
-  align-items: center;
-  margin-top: 30px;
-  justify-content: space-around;
+  padding-bottom: 50px;
   font-family: "Pragmatica", arial;
 }
 
 .page__bottom-image {
+  position: absolute;
   width: 370px;
   height: 200px;
+  margin-top: 74.71px;
+  margin-left: 274px;
 }
 
-.page__bottom-list {
+.page__bottom-list-important {
+  position: absolute;
+  margin-top: 74.71px;
   font-size: 25px;
+  margin-left: 1039px;
+}
+
+.page__bottom-list-policy {
+  position: absolute;
+  margin-top: 74.71px;
+  font-size: 25px;
+  margin-left: 736px;
 }
 
 .page__bottom-list-items {
   list-style-type: none;
   margin-bottom: 10px;
   margin-left: 40px;
+  line-height: 24px;
 }
 
 .page__bottom-list-links {

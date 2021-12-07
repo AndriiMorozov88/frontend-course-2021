@@ -10,18 +10,20 @@
     <body>
         <header class="header">
             <div class="header__logo">
-                <img src="images/1x/logo.png" alt="logo">
+                <img src="images/logo.svg" alt="logo">
             </div>
             <div class ="header__items">
                 <div class="header__items-phone">
-                    <img src="images/1x/Phone.svg" alt="Phone">
+                    <svg width="18" height="24">
+                        <use xlink:href="images/sprite.svg#phone"></use>
+                    </svg>
                     <p>+088 01877576457</p>
                 </div>
                 <button type="button" class="header__items__button">
                     <b>Sign In</b>
                 </button>
                 <div class="header__items-language">
-                    <img src="images/1x/World.svg" alt="World">
+                    <img src="images/1x/World.svg" alt="World" class="header__items-language__img">
                     <p>EN</p>
                 </div>
             </div>
@@ -64,7 +66,7 @@
             <section class="page__offers">
                 <div class="page__offers-block page__offers-block-color--fff3eb">
                     <svg class="page__offers-block-img" width="72" height="71" fill="#E24321">
-                        <use xlink:href="images/1x/sprite.svg#industry"></use>
+                        <use xlink:href="images/sprite.svg#industry"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Industry-leading tech</b>
@@ -74,7 +76,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--ecedff">
                     <svg class="page__offers-block-img" width="92" height="71" fill="#2F80ED">
-                        <use xlink:href="images/1x/sprite.svg#coverage"></use>
+                        <use xlink:href="images/sprite.svg#coverage"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Nationwide coverage</b>
@@ -84,7 +86,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--ffecf1">
                     <svg class="page__offers-block-img" width="111" height="71" fill="#FF3366">
-                        <use xlink:href="images/1x/sprite.svg#delivery"></use>
+                        <use xlink:href="images/sprite.svg#delivery"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Fastest delivery</b>
@@ -94,7 +96,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--f7f7f7">
                     <svg class="page__offers-block-img" width="72" height="71" fill="#2A9DF4">
-                        <use xlink:href="images/1x/sprite.svg#payment"></use>
+                        <use xlink:href="images/sprite.svg#payment"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Next day payment</b>
@@ -104,7 +106,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--fffaec">
                     <svg class="page__offers-block-img" width="92" height="70" fill="#36398E">
-                        <use xlink:href="images/1x/sprite.svg#rates"></use>
+                        <use xlink:href="images/sprite.svg#rates"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Best COD rated</b>
@@ -114,7 +116,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--fff3eb">
                     <svg class="page__offers-block-img" width="65" height="72" fill="#FF6A00">
-                        <use xlink:href="images/1x/sprite.svg#secure"></use>
+                        <use xlink:href="images/sprite.svg#secure"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Secure handling</b>
@@ -124,7 +126,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--eefff3">
                     <svg class="page__offers-block-img" width="70" height="71" fill="#FF0084">
-                        <use xlink:href="images/1x/sprite.svg#insuarance"></use>
+                        <use xlink:href="images/sprite.svg#insuarance"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Product insurance</b>
@@ -134,7 +136,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--ffecf1">
                     <svg class="page__offers-block-img" width="72" height="73" fill="#E9043F">
-                        <use xlink:href="images/1x/sprite.svg#verify"></use>
+                        <use xlink:href="images/sprite.svg#verify"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Verified products</b>
@@ -144,7 +146,7 @@
                 </div>
                 <div class="page__offers-block page__offers-block-color--ecedff">
                     <svg class="page__offers-block-img" width="76" height="70" fill="#3366FF">
-                        <use xlink:href="images/1x/sprite.svg#monitoring"></use>
+                        <use xlink:href="images/sprite.svg#monitoring"></use>
                     </svg>
                     <p class="page__offers-block--title">
                         <b>Realtime Monitoring</b>
@@ -250,32 +252,32 @@
             </section>
         </main>
         <svg width="236" height="32" fill="#444B51" class="page__clients">
-            <use xlink:href="images/1x/sprite.svg#clients"></use>
+            <use xlink:href="images/sprite.svg#clients"></use>
         </svg>
         <div class="page__clients__links">
-            <svg width="120" height="40">
-                <use xlink:href="images/1x/sprite.svg#google"></use>
+            <svg width="120" height="40" class="page__clients__links__link">
+                <use xlink:href="images/sprite.svg#google"></use>
             </svg>
-            <svg width="141" height="30">
-                <use xlink:href="images/1x/sprite.svg#microsoft"></use>
+            <svg width="141" height="30" class="page__clients__links__link">
+                <use xlink:href="images/sprite.svg#microsoft"></use>
             </svg>
-            <svg width="100" height="30">
-                <use xlink:href="images/1x/sprite.svg#flickr"></use>
+            <svg width="100" height="30" class="page__clients__links__link">
+                <use xlink:href="images/sprite.svg#flickr"></use>
             </svg>
-            <svg width="119" height="30">
-                <use xlink:href="images/1x/sprite.svg#slack"></use>
+            <svg width="119" height="30" class="page__clients__links__link">
+                <use xlink:href="images/sprite.svg#slack"></use>
             </svg>
-            <svg width="134" height="40">
-                <use xlink:href="images/1x/sprite.svg#syngenta"></use>
+            <svg width="134" height="40" class="page__clients__links__link">
+                <use xlink:href="images/sprite.svg#syngenta"></use>
             </svg>
-            <svg width="138" height="40">
-                <use xlink:href="images/1x/sprite.svg#merck"></use>
+            <svg width="138" height="40" class="page__clients__links__link">
+                <use xlink:href="images/sprite.svg#merck"></use>
             </svg>
         </div>
         <footer class="page__bottom">
             <img src="images/1x/bonik_bottom.svg" alt="" class="page__bottom-image">
-            <div>
-                <ul class="page__bottom-list">Important Links</ul>
+            <div class="page__bottom-list-policy">
+                <ul>Important Links</ul>
                 <li class="page__bottom-list-items">
                     <a class="page__bottom-list-links" href="#">FAQs</a>
                 </li>
@@ -289,8 +291,8 @@
                     <a class="page__bottom-list-links" href="#">Trims & Conditions</a>
                 </li>
             </div>
-            <div>
-                <ul class="page__bottom-list">Policy</ul>
+            <div class="page__bottom-list-important">
+                <ul>Policy</ul>
                 <li class="page__bottom-list-items">
                     <a class="page__bottom-list-links" href="#">Learner</a>
                 </li>
