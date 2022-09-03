@@ -20,10 +20,13 @@ body {
 .chat__message {
   border: 1px solid #000;
   border-radius: 5px;
-  height: 50px;
   margin-left: 10px;
-  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   background-color: #EF0;
-  vertical-align: middle;
   font-size: 30px;
+  padding: 10px;
+  width: max-content;
+  max-width: 80%;
+  word-wrap: break-word;
 }
