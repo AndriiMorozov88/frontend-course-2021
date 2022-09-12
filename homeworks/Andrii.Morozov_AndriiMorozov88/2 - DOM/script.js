@@ -7,9 +7,15 @@ function sendMessage(event) {
         const template = document.querySelector('[data-chat-field-element]');
         const textMessageEl = template.content.querySelector('[data-message]');
         textMessageEl.textContent = message.value;
+        btnEl = document.createElement('button');
+        textMessageEl.append(btnEl);
+        btnEl.textContent = "X";
+        btnEl.addEventListener('click', () => {
+            console.log(111);
+        });
         const cloneMessage = template.content.cloneNode(true);
         chatField.append(cloneMessage);
-        template.className = 'chat__message';
+        template.classList.add('chat__message');
         messageInputField.reset();
     }
 }
